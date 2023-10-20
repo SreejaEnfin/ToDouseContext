@@ -1,0 +1,21 @@
+.completeBox {
+    width: 28%;
+    margin-top: 50px;
+    height: 500px;
+    margin-left: 100px;
+    border: 2px solid green;
+}
+
+.completeBox h2 {
+    text-align: center;
+}
+
+.listComplete {
+    list-style-type: number;
+    padding-inline-start: 3em;
+    justify-content: flex-start;
+    font-size: medium;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
