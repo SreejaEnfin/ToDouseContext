@@ -20,7 +20,6 @@ const Progress = () => {
       const progressItems = updatedComplete.filter((item) => item.isProgress);
       setComplete(updatedComplete.filter((item) => !item.isProgress));
       setProgress(() => [...progress, ...progressItems]);
-      console.log("pending is not an array");
     }
   };
 

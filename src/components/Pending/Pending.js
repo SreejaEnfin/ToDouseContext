@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./Pending.css";
 import { DataContext } from "../../context/DataContext";
 const Pending = () => {
@@ -14,7 +14,6 @@ const Pending = () => {
             isProgress: true,
           };
         }
-        console.log(item);
         return item;
       });
 
@@ -25,7 +24,7 @@ const Pending = () => {
       console.log("pending is not an array");
     }
   };
-  console.log("after", progress);
+  // console.log("after", progress);
 
   const pendingItems = pending.map((pendingItem) => (
     <li className="listPending" key={pendingItem.id}>

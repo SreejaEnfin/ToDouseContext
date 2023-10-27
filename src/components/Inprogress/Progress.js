@@ -23,7 +23,7 @@ const Progress = () => {
       setComplete(() => [...complete, ...completeItems]);
       setProgress(updatedProgress.filter((item) => !item.isComplete));
     } else {
-      console.log("pending is not an array");
+      // console.log("pending is not an array");
     }
   };
   // console.log("after", progress);
@@ -44,7 +44,7 @@ const Progress = () => {
       setPending(() => [...pending, ...pendingItems]);
       setProgress(updatedProgress.filter((item) => !item.isPending));
     } else {
-      console.log("pending is not an array");
+      // console.log("pending is not an array");
     }
   };
 
